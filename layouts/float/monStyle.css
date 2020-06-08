@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Piedra&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+
+}
+
+header {
+    font-family: 'Piedra', cursive;
+    background-color: lightgoldenrodyellow;
+    padding: 25px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    color: cornflowerblue;
+
+}
+
+section {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+nav {
+    float: left;
+    width: 30%;
+    background-color: antiquewhite;
+    padding: 25px;
+
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+nav li {
+
+}
+
+article {
+    float: left;
+    whdth: 70%;
+    padding: 10px;
+    text-align: justify;
+
+}
+
+article h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+}
+
+footer {
+    text-align: center;
+    background-color: bisque;
+
+}
+
+@media (max-width: 500px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
